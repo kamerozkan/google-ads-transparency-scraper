@@ -4,7 +4,7 @@ import asyncio
 from typing import Any
 
 from apify import Actor
-from ads_client import GoogleAdsClient, FORMAT_MAP
+from .ads_client import GoogleAdsClient, FORMAT_MAP
 
 
 class ChargeLimitReached(Exception):
