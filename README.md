@@ -148,3 +148,11 @@ This Actor operates under **Pay-Per-Event (PPE)**:
 - **Per Scraped Ad Creative ($0.0015):** Charged only for successfully extracted ad creative records.
 - 1,000 ad creatives cost just $1.50 (compared to $150+/month for legacy spy subscriptions).
 - Platform compute usage is fully included in the event fee.
+
+---
+
+## Related Apify Intelligence & Scraping Tools
+
+- [Google Hotels Prices & OTA Rate Tracker API](https://apify.com/kamerozkan/google-hotels-prices) - Real-time hotel rates, room types, and OTA rate disparity scraper.
+- [Google Flights Prices & Fare Tracker API](https://apify.com/kamerozkan/google-flights-prices) - Real-time flight fares, non-stop routes, and multi-airline price tracking.
+- [AI Brand Visibility & GEO Rank Tracker API](https://apify.com/kamerozkan/ai-brand-visibility-tracker) - Track brand mentions, Share of Voice (SOV), and citations across ChatGPT, Perplexity, Gemini, and Claude.
