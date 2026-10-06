@@ -1,0 +1,13 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Google Ads Transparency Output",
+    "description": "Ad creatives, formats, image URLs, active dates and landing destinations extracted from Google Ads Transparency Center.",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Ad Creatives Dataset",
+            "description": "Default dataset containing collected ad records.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

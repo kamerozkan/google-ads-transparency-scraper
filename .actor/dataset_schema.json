@@ -1,0 +1,67 @@
+{
+    "actorDatasetSchemaVersion": 1,
+    "title": "Google Ads Transparency Dataset",
+    "type": "object",
+    "properties": {
+        "creativeId": {
+            "type": "string",
+            "title": "Creative ID",
+            "description": "Unique Google Ad creative identifier (starts with CR)."
+        },
+        "advertiserId": {
+            "type": "string",
+            "title": "Advertiser ID",
+            "description": "Google Advertiser identifier (starts with AR)."
+        },
+        "advertiserName": {
+            "type": "string",
+            "title": "Advertiser Name",
+            "description": "Verified legal entity or company running the advertisement."
+        },
+        "targetDomain": {
+            "type": "string",
+            "title": "Target Domain",
+            "description": "Domain associated with the advertisement."
+        },
+        "format": {
+            "type": "string",
+            "title": "Ad Format",
+            "description": "Format of the ad: IMAGE, TEXT, or VIDEO."
+        },
+        "firstShown": {
+            "type": "string",
+            "title": "First Shown Date",
+            "description": "ISO 8601 timestamp when the ad was first detected."
+        },
+        "lastShown": {
+            "type": "string",
+            "title": "Last Shown Date",
+            "description": "ISO 8601 timestamp when the ad was last detected running."
+        },
+        "daysActive": {
+            "type": "number",
+            "title": "Days Active",
+            "description": "Number of days between first and last seen date."
+        },
+        "imageUrl": {
+            "type": "string",
+            "title": "Image Asset URL",
+            "description": "Direct CDN URL to the ad creative image (for IMAGE ads)."
+        },
+        "headline": {
+            "type": "string",
+            "title": "Ad Headline",
+            "description": "Extracted headline copy for text or responsive search ads."
+        },
+        "destinationUrl": {
+            "type": "string",
+            "title": "Destination / Landing Page URL",
+            "description": "Direct landing page URL or product link promoted in the ad."
+        },
+        "transparencyUrl": {
+            "type": "string",
+            "title": "Transparency Center URL",
+            "description": "Direct canonical link to this ad on Google Ads Transparency Center."
+        }
+    }
+}
